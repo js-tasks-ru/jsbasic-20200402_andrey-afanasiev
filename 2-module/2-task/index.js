@@ -4,5 +4,9 @@
  * @returns {Boolean}
  */
 function isEmpty(obj) {
-  // ваш код...
-}
+    for (let scan in obj) {
+      return false 
+      }
+      return true;
+      }
+
